@@ -74,8 +74,7 @@ _Goals:_ What are the goals of each player? (e.g., jumping to a tree, opening th
 
 The person's goal is to calm down, relax, and remain undisturbed as long as possible. 
 
-
-
+![storyboard](https://github.com/nicholasburka/Interactive-Lab-Hub/blob/Fall2021/Lab%201/tinkerbelle_devices_storyboard.jpeg)
 
 The other members of my group laughed as they looked at my storyboard and two of them said out loud "it's good."
 
