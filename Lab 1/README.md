@@ -109,7 +109,7 @@ Take a little time to set up the wizarding set-up that allows for someone to rem
 
 ## Part F. Record
 
-[![Tinkerbelle Crystal Ball](https://github.com/nicholasburka/Interactive-Lab-Hub/blob/Fall2021/Lab%201/tinkerbelle%20staging%20smaller.mp4)
+[![Tinkerbelle Crystal Ball](https://youtu.be/v2pwkkS07nY)
 
 \*\***Please indicate anyone you collaborated with on this Lab.**\*\*
 Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
