@@ -90,45 +90,29 @@ Try physically acting out the interaction you planned. For now, you can just pre
 
 ## Part C. Prototype the device
 
-You will be using your smartphone as a stand-in for the device you are prototyping. You will use the browser of your smart phone to act as a “light” and use a remote control interface to remotely change the light on that device. 
-
 Code for the "Tinkerbelle" tool, and instructions for setting up the server and your phone are [here](https://github.com/FAR-Lab/tinkerbelle).
 
-We invented this tool for this lab! 
-
-If you run into technical issues with this tool, you can also use a light switch, dimmer, etc. that you can can manually or remotely control.
-
 \*\***Give us feedback on Tinkerbelle.**\*\*
-
+- Tinkerbelle is very easy to use and fun. It would be nice to be able to script a light sequence and save it; I only have cameras on my computer and phone and it's hard to record while wizarding.
 
 ## Part D. Wizard the device
 Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record. 
 
-\*\***Include your first attempts at recording the set-up video here.**\*\*
-
-Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
-
-\*\***Show the follow-up work here.**\*\*
-
 
 ## Part E. Costume the device
 
-Only now should you start worrying about what the device should look like. Develop a costume so that you can use your phone as this device.
-
-Think about the setting of the device: is the environment a place where the device could overheat? Is water a danger? Does it need to have bright colors in an emergency setting?
-
-\*\***Include sketches of what your device might look like here.**\*\*
+![sketch 1](https://raw.githubusercontent.com/nicholasburka/Interactive-Lab-Hub/Fall2021/Lab%201/IMG_0944.jpg)
+![sketch 2](https://raw.githubusercontent.com/nicholasburka/Interactive-Lab-Hub/Fall2021/Lab%201/IMG_0945.jpg)
 
 \*\***What concerns or opportunitities are influencing the way you've designed the device to look?**\*\*
-
+- The device is meant to signal phone state while being as calming to sit with as possible. A crystal ball with a soft glow (or some similar shape that can fill softly with light) is ideal. Since it's meant to be in someone's office or bedroom, it doesn't need to be moveable or waterproof - just easy to turn on and off, pair with a phone, and best not too fragile.
 
 ## Part F. Record
 
-\*\***Take a video of your prototyped interaction.**\*\*
+[![Tinkerbelle Crystal Ball](https://github.com/nicholasburka/Interactive-Lab-Hub/blob/Fall2021/Lab%201/tinkerbelle%20staging%20smaller.mp4)
 
 \*\***Please indicate anyone you collaborated with on this Lab.**\*\*
 Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
-
 
 
 # Staging Interaction, Part 2 
