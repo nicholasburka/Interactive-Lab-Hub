@@ -109,7 +109,7 @@ Take a little time to set up the wizarding set-up that allows for someone to rem
 
 ## Part F. Record
 
-[![Tinkerbelle Crystal Ball](https://youtu.be/v2pwkkS07nY)
+[![Tinkerbelle Crystal Ball](https://i9.ytimg.com/vi/v2pwkkS07nY/mq1.jpg?sqp=CMzX5YkG&rs=AOn4CLDXuDuf0dQ_whhevVLfk57gGf3JhQ)](https://youtu.be/v2pwkkS07nY)
 
 \*\***Please indicate anyone you collaborated with on this Lab.**\*\*
 Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
