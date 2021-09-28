@@ -195,11 +195,13 @@ After that, Git will ask you to login to your GitHub account to push the updates
 ## Part F. 
 ## Make a short video of your modified barebones PiClock
 
-\*\*\***Take a video of your PiClock.**\*\*\*
+https://youtu.be/fC_JGScFmGY
 
 ## Part G. 
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
 
+- A "rollback" animation for when the clock is unstopped
+- The ability to speed up and slow down time
 
 # Prep for Part 2
 
