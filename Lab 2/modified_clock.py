@@ -61,14 +61,29 @@ backlight = digitalio.DigitalInOut(board.D22)
 backlight.switch_to_output()
 backlight.value = True
 
+#buttons
+buttonA = digitalio.DigitalInOut(board.D23)
+buttonB = digitalio.DigitalInOut(board.D24)
+buttonA.switch_to_input()
+buttonB.switch_to_input()
+
+#logic
+stopped_clock = False
+
 while True:
-    # Draw a black filled box to clear the image.
-    draw.rectangle((0, 0, width, height), outline=0, fill=0)
+    if not buttonA.value:
+        stopped_clock = True
+    elif not buttonB.value:
+        stopped_clock = False
+    if (not stopped_clock):
+        # Draw a black filled box to clear the image.
+        draw.rectangle((0, 0, width, height), outline=0, fill=0)
 
-    #TODO: Lab 2 part D work should be filled in here. You should be able to look in cli_clock.py and stats.py 
-    draw.text((0,0), time.strftime("%m/%d/%Y"), font=font, fill="#0000FF")
-    draw.text((24, 32), time.strftime("%H:%M:%S"), font=bigfont, fill="#FF00FF")
+        #TODO: Lab 2 part D work should be filled in here. You should be able to look in cli_clock.py and stats.py 
+        draw.text((0,0), time.strftime("%m/%d/%Y"), font=font, fill="#0000FF")
+        draw.text((24, 32), time.strftime("%H:%M:%S"), font=bigfont, fill="#FF00FF")
 
-    # Display image.
-    disp.image(image, rotation)
-    time.sleep(1)
+
+        # Display image.
+        disp.image(image, rotation)
+        time.sleep(1)
