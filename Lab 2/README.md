@@ -143,6 +143,7 @@ https://youtu.be/fC_JGScFmGY
 
 - A "rollback" animation for when the clock is unstopped
 - The ability to speed up and slow down time
+![sketches](https://github.com/nicholasburka/Interactive-Lab-Hub/blob/Fall2021/Lab%202/sketches.png)
 
 # Prep for Part 2
 
