@@ -101,11 +101,15 @@ From a remote browser on the same network, check to make sure your webserver is 
 
 Storyboard and/or use a Verplank diagram to design a speech-enabled device. (Stuck? Make a device that talks for dogs. If that is too stupid, find an application that is better than that.) 
 
+
 \*\***Post your storyboard and diagram here.**\*\*
+![Brainstorming](https://github.com/nicholasburka/Interactive-Lab-Hub/blob/Fall2021/Lab%203/lab3-brainstorm.png)
+![Verplank diagram](https://github.com/nicholasburka/Interactive-Lab-Hub/blob/Fall2021/Lab%203/lab3-verplank-diagram.png)
 
 Write out what you imagine the dialogue to be. Use cards, post-its, or whatever method helps you develop alternatives or group responses. 
+(Process described at top of dialogue imagination)
+![Imagined dialogue](https://github.com/nicholasburka/Interactive-Lab-Hub/blob/Fall2021/Lab%203/example-dialogue.png)
 
-\*\***Please describe and document your process.**\*\*
 
 ### Acting out the dialogue
 
