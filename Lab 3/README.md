@@ -115,7 +115,9 @@ Write out what you imagine the dialogue to be. Use cards, post-its, or whatever 
 
 Find a partner, and *without sharing the script with your partner* try out the dialogue you've designed, where you (as the device designer) act as the device you are designing.  Please record this interaction (for example, using Zoom's record feature).
 
-\*\***Describe if the dialogue seemed different than what you imagined when it was acted out, and how.**\*\*
+My partner for the interaction didn't realize the recording would be shared with a class (he's a friend from home) and declined to have the recording shared. The dialogue went completely differently than I expected. I expected thoughts to be paced, slowly and deliberately, relying on the device to provide repetition/reflection that prompted new thoughts. However, when I explained the hypothetical scenario to my friend - that he would be a real estate broker, offered to trade three potentially lucrative houses for an apartment complex - he launched directly into a long train of thought, pausing only momentarily, and not long enough to prompt my device to repeat any of his thoughts. 
+
+This interaction suggested that the device may be better suited for users as an organizational thought playback and transcription tool rather than a strictly in-the-moment feedback system.
 
 ### Wizarding with the Pi (optional)
 In the [demo directory](./demo), you will find an example Wizard of Oz project. In that project, you can see how audio and sensor data is streamed from the Pi to a wizard controller that runs in the browser.  You may use this demo code as a template. By running the `app.py` script, you can see how audio and sensor data (Adafruit MPU-6050 6-DoF Accel and Gyro Sensor) is streamed from the Pi to a wizard controller that runs in the browser `http://<YouPiIPAddress>:5000`. You can control what the system says from the controller as well!
@@ -129,9 +131,18 @@ For Part 2, you will redesign the interaction with the speech-enabled device usi
 ## Prep for Part 2
 
 1. What are concrete things that could use improvement in the design of your device? For example: wording, timing, anticipation of misunderstandings...
-2. What are other modes of interaction _beyond speech_ that you might also use to clarify how to interact?
-3. Make a new storyboard, diagram and/or script based on these reflections.
 
+- the device's timing only works for slow/confused/other trains of thought in which the repetition of thought after a moment of silence is useful
+- by allowing users to pace, save, and organize their thoughts, users can still find value in the device regardless of the speed or continuity of their thoughts
+- furthermore, storing and organizing all user-saved thoughts opens up a variety of possible uses: organizational notes, visualizations, analytics (necessarily this device would be encrypted and private)
+- since thoughts would be organized (and colored), users could playback thoughts not immediately preceding their current thought, switch train of thoughts, and generally have a more flexible user experience 
+
+3. What are other modes of interaction _beyond speech_ that you might also use to clarify how to interact?
+- by modeling an organizational tool like a Novation Launchpad (used for making music with Ableton Live), could open up other modes of interaction: playback by pushing colored cell-buttons, organizing or deleting cells, re-coloring cells to show relatedness
+- tactile feedback would be nice
+5. Make a new storyboard, diagram and/or script based on these reflections.
+![Brainstorming](https://github.com/nicholasburka/Interactive-Lab-Hub/blob/Fall2021/Lab%203/lab3-2-brainstorm.png)
+![Verplank diagram](https://github.com/nicholasburka/Interactive-Lab-Hub/blob/Fall2021/Lab%203/lab3-2-verplank-diagram.png)
 ## Prototype your system
 
 The system should:
