@@ -175,6 +175,9 @@ Usually, sensors need to positioned in specific locations or orientations to mak
 
 **\*\*\*Draw 5 sketches of different ways you might use your sensor, and how the larger device needs to be shaped in order to make the sensor useful.\*\*\***
 
+![sketches p1](https://github.com/nicholasburka/Interactive-Lab-Hub/blob/Fall2021/Lab%204/sketches-p1.png)
+![sketches p2](https://github.com/nicholasburka/Interactive-Lab-Hub/blob/Fall2021/Lab%204/sketches-p2.png)
+
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
 
 **\*\*\*Pick one of these designs to prototype.\*\*\***
