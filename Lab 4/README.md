@@ -221,6 +221,7 @@ Following exploration and reflection from Part 1, complete the "looks like," "wo
 
 [Rhythm-a-Thing Soundcheck](https://www.youtube.com/shorts/6mtE1do4bNI)
 - Playing the rhythm-a-thing
+
 [Rhythm-a-Thing Display Movement](https://www.youtube.com/watch?v=QqioQe3bVVo)
 - Not fully functional prototype, but lights move in time. Covered with back of copper tape because LED's are too bright for camera.
 
