@@ -194,34 +194,38 @@ Usually, sensors need to positioned in specific locations or orientations to mak
 
  
 **\*\*\*Sketch 5 designs for how you would physically position your display and any buttons or knobs needed to interact with it.\*\*\***
-
+![sketches part D](https://github.com/nicholasburka/Interactive-Lab-Hub/blob/Fall2021/Lab%204/display-sketches.png)
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
+- wire management
+- keeping the copper tape neat
+- wiring between the cap sensor, pi, and LED stick
+- sturdy/usable base
+- viability of moving displays, how to ground these well
+- how big does text need to be to be readable while using the device
 
-**\*\*\*Pick one of these display designs to integrate into your prototype.\*\*\***
-
-**\*\*\*Explain the rationale for the design.\*\*\*** (e.g. Does it need to be a certain size or form or need to be able to be seen from a certain distance?)
-
-Build a cardbord prototype of your design.
+**\*\*\*Explain the rationale for the design. (my answer written below)\*\*\*** (e.g. Does it need to be a certain size or form or need to be able to be seen from a certain distance?)
+Design rationale: most information condensed into the use of the LED's. While the 1st + 2nd design may be more versatile for types of rhythms, I like the ability of the user to see where the current beat lies within the measure. It's also simple.
 
 **\*\*\*Document your rough prototype.\*\*\***
-
+![rhythm-a-thing proto](https://github.com/nicholasburka/Interactive-Lab-Hub/blob/Fall2021/Lab%204/rhythm_a_thing.png)
+![rhythm-a-thing display proto 1](https://github.com/nicholasburka/Interactive-Lab-Hub/blob/Fall2021/Lab%204/rhythm_a_thing_display_1.png)
+![rhythm-a-thing display proto 2](https://github.com/nicholasburka/Interactive-Lab-Hub/blob/Fall2021/Lab%204/rhythm_a_thing_display_2.png)
 
 LAB PART 2
 
 ### Part 2
 
 Following exploration and reflection from Part 1, complete the "looks like," "works like" and "acts like" prototypes for your design, reiterated below.
-
-### Part E (Optional)
-### Servo Control with Joystick
-
-
-
 ### Part F
 ### Record
+
+[Rhythm-a-Thing Soundcheck](https://www.youtube.com/shorts/6mtE1do4bNI)
+- Playing the rhythm-a-thing
+[Rhythm-a-Thing Display Movement](https://www.youtube.com/watch?v=QqioQe3bVVo)
+- Not fully functional prototype, but lights move in time. Covered with back of copper tape because LED's are too bright for camera.
 
 Document all the prototypes and iterations you have designed and worked on! Again, deliverables for this lab are writings, sketches, photos, and videos that show what your prototype:
 * "Looks like": shows how the device should look, feel, sit, weigh, etc.
 * "Works like": shows what the device can do
-* "Acts like": shows how a person would interact with the device
+* "Acts like": shows how a person would interact with the devic
 
