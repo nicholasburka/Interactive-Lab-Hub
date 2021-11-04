@@ -100,6 +100,12 @@ pi@ixe00:~/openCV-examples/object-detection $ python detect.py
 
 **\*\*\*Try each of the following four examples in the `openCV-examples`, include screenshots of your use and write about one design for each example that might work based on the individual benefits to each algorithm.\*\*\***
 
+![contour](https://github.com/nicholasburka/Interactive-Lab-Hub/blob/Fall2021/Lab%205/contour.png)
+![face](https://github.com/nicholasburka/Interactive-Lab-Hub/blob/Fall2021/Lab%205/face.png)
+![flow](https://github.com/nicholasburka/Interactive-Lab-Hub/blob/Fall2021/Lab%205/flow.png)
+![object](https://github.com/nicholasburka/Interactive-Lab-Hub/blob/Fall2021/Lab%205/object.png)
+![design ideas](https://github.com/nicholasburka/Interactive-Lab-Hub/blob/Fall2021/Lab%205/design-ideas.png)
+
 #### MediaPipe
 
 A more recent open source and efficient method of extracting information from video streams comes out of Google's [MediaPipe](https://mediapipe.dev/), which offers state of the art face, face mesh, hand pose, and body pose detection.
