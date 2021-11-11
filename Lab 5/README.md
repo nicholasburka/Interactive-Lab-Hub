@@ -141,9 +141,10 @@ Each of the installs will take a while, please be patient. After successfully in
 Try the two main features of this script: 1) pinching for percentage control, and 2) "[Quiet Coyote](https://www.youtube.com/watch?v=qsKlNVpY7zg)" for instant percentage setting. Notice how this example uses hardcoded positions and relates those positions with a desired set of events, in `hand_pose.py` lines 48-53. 
 
 **\*\*\*Consider how you might use this position based approach to create an interaction, and write how you might use it on either face, hand or body pose tracking.\*\*\***
+- 'Dance Dance Recognition' - a dance move recognizer. Could be generalized to many kinds of movement trainers (martial arts, physical therapy). Could have a robot that demonstrates a pose, and when the person matches that pose, the robot demonstrates the next move in the sequence (e.g. ballet sequences). 
+- Conversely, wizarding robots.
 
 (You might also consider how this notion of percentage control with hand tracking might be used in some of the physical UI you may have experimented with in the last lab, for instance in controlling a servo or rotary encoder.)
-
 
 
 #### Teachable Machines
