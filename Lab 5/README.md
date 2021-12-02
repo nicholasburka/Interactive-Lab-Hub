@@ -205,7 +205,15 @@ Pick one of the models you have tried, pick a class of objects, and experiment w
 This can be as simple as the boat detector earlier.
 Try out different interaction outputs and inputs.
 
-**\*\*\*Describe and detail the interaction, as well as your experimentation here.\*\*\***
+I tried to make a Teachable Machines models that could be used to practice the letters of the American Sign Language alphabet.
+Ideally, a model would learn ASL words, but these require time-series analysis combined with image recognition, and while that 
+would be cool, I didn't have enough time for that. 
+
+Unfortunately, as you'll see below, using Teachable Machines to train 26 classes of different hand positions didn't work very well,
+even though I tried to normalize the images by including different head placements in each class dataset and different hands/handsizes.
+
+![ASL 1](https://github.com/nicholasburka/Interactive-Lab-Hub/blob/Fall2021/Lab%205/ASL-full-alpha-1.png)
+![ASL 2](https://github.com/nicholasburka/Interactive-Lab-Hub/blob/Fall2021/Lab%205/ASL-full-alpha-2.png)
 
 ### Part C
 ### Test the interaction prototype
@@ -217,6 +225,17 @@ For example:
 1. When it fails, why does it fail?
 1. Based on the behavior you have seen, what other scenarios could cause problems?
 
+In the first iteration, the model fails entirely. It simply responds too erratically and noisily to input images to accurately detect any ASL letters. It fails in some particular ways: the model produces false A's with certain other letters, and my head's position also influences certain errors, representing a failure to normalize the datasets with different backgrounds (such that each class dataset can reflect the hand position independently of any background features, and in balance with other classes).
+
+I built a 2nd iteration, to distinguish an A and B in American Sign Language.
+
+![ASL AB 1](https://github.com/nicholasburka/Interactive-Lab-Hub/blob/Fall2021/Lab%205/ASL-AB-1.png)
+![ASL AB 2](https://github.com/nicholasburka/Interactive-Lab-Hub/blob/Fall2021/Lab%205/ASL-AB-2.png)
+![ASL AB 3](https://github.com/nicholasburka/Interactive-Lab-Hub/blob/Fall2021/Lab%205/ASL-AB-3.png)
+![ASL AB 4](https://github.com/nicholasburka/Interactive-Lab-Hub/blob/Fall2021/Lab%205/ASL-AB-4.png)
+
+In the 2nd iteration, the model works robustly. Given this binary model, a misclassification would ruin the performance. This model could be expanded to something like a rock paper scissors game - maybe with A/B/C in ASL, if not simply rock/paper/scissors. In the current iteration, I don't think the model would fail but it doesn't provide interesting interactions - learning only A/B in ASL, while marginally useful, may be trivial for the user and not nearly as useful as the full alphabet, let alone a sophistocated vocabulary. Rock-paper-scissors would at least be fun.
+
 **\*\*\*Think about someone using the system. Describe how you think this will work.\*\*\***
 1. Are they aware of the uncertainties in the system?
 1. How bad would they be impacted by a miss classification?
@@ -225,6 +244,15 @@ For example:
 
 ### Part D
 ### Characterize your own Observant system
+
+![ASL AB 1](https://github.com/nicholasburka/Interactive-Lab-Hub/blob/Fall2021/Lab%205/ASL-AB-1.png)
+![ASL AB 2](https://github.com/nicholasburka/Interactive-Lab-Hub/blob/Fall2021/Lab%205/ASL-AB-2.png)
+![ASL AB 3](https://github.com/nicholasburka/Interactive-Lab-Hub/blob/Fall2021/Lab%205/ASL-AB-3.png)
+![ASL AB 4](https://github.com/nicholasburka/Interactive-Lab-Hub/blob/Fall2021/Lab%205/ASL-AB-4.png)
+
+Briefly repeating from the above section, this model could be expanded to something like a rock paper scissors game - maybe with A/B/C in ASL, if not simply rock/paper/scissors. In the current iteration, I don't think the model would fail but it doesn't provide interesting interactions - learning only A/B in ASL, while marginally useful, may be trivial for the user and not nearly as useful as the full alphabet, let alone a sophistocated vocabulary. Rock-paper-scissors would at least be fun.
+
+Rather than recording a video, I'll save interactivity with auditory feedback & a physical representation separate from the computer and camera for my next iteration involving RPS, and refer to the photos of my second iteration above in part C. To expand on the questions here, since the Teachable Machines model has been robust against differences in background given two classes and a variety of background and size conditions in each class' training set, this model can be used without much concern for good and bad environments. That said, an environment with multiple hands in the picture may break the model. Also, for expansion to the real world, image sets may better include diverse hands (size, race, gender, shape). When the model doesn't work, then the user would have a potentially frustrating experience - the system would misidentify the user's hand pose and therefore either misrepresent the sign languge letter depicted (removing any learning outcome) or give the player the wrong hand in RPS (changing the game outcome). For now, X feels simple. I like the feedback of having my hand poses recognized.
 
 Now that you have experimented with one or more of these sense-making systems **characterize their behavior**.
 During the lecture, we mentioned questions to help characterize a material:
