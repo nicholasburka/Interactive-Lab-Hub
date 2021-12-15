@@ -7,6 +7,7 @@ import cv2
 import sys
 import random
 import time
+import os
 
 
 # Disable scientific notation for clarity
@@ -80,13 +81,21 @@ def next_comp_move(style="copycat"):
 
 points = 0
 
+def say(text):
+    os.system('echo ' + text + ' | festival --tts &')
+    time.sleep(1)
+
+def print_and_say(text):
+    print(text)
+    say(text)
+
 while(True):
     if (game_stage == "prep"):
-        print("choose your move and hold")
+        print_and_say("choose your move and hold")
         game_stage = "move"
         time.sleep(3)
     if (game_stage == "move"):
-        print("reading your move")
+        print_and_say("reading your move")
         if webCam:
             ret, img = cap.read()
 
@@ -123,14 +132,14 @@ while(True):
     if (game_stage == "announce"):
         last_comp_move = comp_move
         comp_move = next_comp_move()
-        print("you chose: " + player_move)
-        print("comp chose: " + comp_move)
+        print_and_say("you chose: " + player_move)
+        print_and_say("comp chose: " + comp_move)
         if (comp_move == player_move):
             print("match! +1")
             points += 1
         else:
             print("no match")
-        print("score: " + str(points))
+        print_and_say("score: " + str(points))
         game_stage = "prep"
 
 cv2.imwrite('detected_out.jpg',img)
