@@ -273,6 +273,8 @@ Following exploration and reflection from Part 1, finish building your interacti
 
 **\*\*\*Include a short video demonstrating the finished result.\*\*\***
 [Proto RPS Teachable Machines System Demo](https://www.youtube.com/watch?v=r0HloEvlmro)
-I also made a simple matching game called agree, where the goal is to match the symbol of your partner - if you do
-you both get a point. It's terminal based in addition to using the Teachable Machines model and webcam, 
-but has the most sophistocated code, in agree.py
+I made a simple matching game called agree, where the goal is to match the gesture (either ASL A or B) of your partner - if you do
+you both get a point. It's meant to use text-to-speech to prompt interaction with a user, and uses the 
+Teachable Machines model and webcam, but has the most sophistocated code, in agree.py. My Raspberry Pi speaker
+wasn't working, so for full effect in the video I recorded my own voice and overdubbed instead of using my code system,
+but my code works on my Raspberry Pi.
