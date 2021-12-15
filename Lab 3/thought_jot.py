@@ -1,8 +1,9 @@
 import qwiic_keypad
 import time
 import sys
+import os
 
-
+#user must install the below libraries and also apt-get install omxplayer
 import sounddevice as sd
 from scipy.io.wavfile import write
 import wavio as wv
@@ -46,10 +47,12 @@ while True:
 		print(keychar)
 		if keychar in recd:
 			print('playback')
-			wave_obj = simpleaudio.WaveObject.from_wave_file(sound_dict[keychar])
-			play = wave_obj.play()
-			play.wait_done()
-			play.stop()
+			os.system('omxplayer ./' + sound_dict[keychar] + " &")
+			print(sound_dict[keychar])
+			#wave_obj = simpleaudio.WaveObject.from_wave_file(sound_dict[keychar])
+			#play = wave_obj.play()
+			#play.wait_done()
+			#play.stop()
 		else: 
 			print('recording')
 			recording = sd.rec(int(duration*freq), samplerate=freq, channels=2)
