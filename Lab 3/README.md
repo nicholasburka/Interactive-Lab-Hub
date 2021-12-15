@@ -150,28 +150,28 @@ The system should:
 * use one or more sensors
 * require participants to speak to it. 
 
-*Document how the system works*
+The system works simply - press a button on the numpad to record an audio snippet of a predefined length, and then press that same button again to playback,
+or press a different button to record a new snippet. Future iterations would allow overwriting and have visual feedback indicating when
+the system is recording, playing back, or overwriting, and which buttons/cells have already recorded audio.
 
-*Include videos or screencaptures of both the system and the controller.*
+[Video demo/test](https://www.youtube.com/watch?v=_1z5ocWpiQY)
 
 ## Test the system
-Try to get at least two people to interact with your system. (Ideally, you would inform them that there is a wizard _after_ the interaction, but we recognize that can be hard.)
-
-Answer the following:
 
 ### What worked well about the system and what didn't?
-\*\**your answer here*\*\*
+The system performed core functionality well. However, it didn't feel fluid, and the inability to record audio of different lengths limits
+possibilities.
 
 ### What worked well about the controller and what didn't?
-
-\*\**your answer here*\*\*
+The buttons aren't satisfying to push and don't have clear tactile feedback when depressed. There's no indication of when the system is recording
+or playing back audio, which could cause issues. Also, having no clear feedback about which cells have been recorded to relies on user memory.
 
 ### What lessons can you take away from the WoZ interactions for designing a more autonomous version of the system?
-
-\*\**your answer here*\*\*
-
+It's important that the system be well-suited and versatile to different user needs, as "thought processes" are highly personal. Therefore,
+the system should be highly fluid, responsive, able to record audio of different lengths and quickly, and imply an organization of recorded
+material regardless of (and in addition to) user organization.
 
 ### How could you use your system to create a dataset of interaction? What other sensing modalities would make sense to capture?
-
-\*\**your answer here*\*\*
-
+Monitoring how users relate to the button, various timings could provide more insight. Also how quickly after pushing a button users
+begin to speak, and how quickly after recording one thought users record another. Recording users continuously to see if they use the 
+system as a real-time recorder or post-hoc - do they speak "off the air"?
